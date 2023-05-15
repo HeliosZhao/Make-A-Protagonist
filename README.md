@@ -7,9 +7,8 @@ This repository is the official implementation of [Make-A-Protagonist]().
 [Yuyang Zhao](https://yuyangzhao.com), [Enze Xie](https://xieenze.github.io/), [Lanqing Hong](https://scholar.google.com.sg/citations?user=2p7x6OUAAAAJ&hl=en), [Zhenguo Li](https://scholar.google.com.sg/citations?user=XboZC1AAAAAJ&hl=en), [Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/)
 <br/>
 
-[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://make-a-protagonist.github.io/)
+[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://make-a-protagonist.github.io/) [![arXiv](https://img.shields.io/badge/arXiv-preprint-b31b1b.svg)]()
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2212.09068-b31b1b.svg)](https://arxiv.org/abs/2212.09068) -->
-[![arXiv](https://img.shields.io/badge/arXiv-preprint-b31b1b.svg)]()
 
 
 <p align="center">
