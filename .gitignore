@@ -1,0 +1,5 @@
+outputs/
+data_images/
+__pycache__
+.idea/
+.DS_Store
