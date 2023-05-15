@@ -12,7 +12,7 @@ This repository is the official implementation of [Make-A-Protagonist]().
 
 
 <p align="center">
-<img src="https://make-a-protagonist.github.io/assets/teaser-video.gif" width="800px"/>  
+<img src="https://make-a-protagonist.github.io/assets/teaser-video.gif" width="1080px"/>  
 <br>
 <em>The first framework for generic video editing with both visual and textual clues.</em>
 </p>
