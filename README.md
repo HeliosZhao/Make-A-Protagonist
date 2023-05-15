@@ -11,16 +11,12 @@ This repository is the official implementation of [Make-A-Protagonist]().
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2212.09068-b31b1b.svg)](https://arxiv.org/abs/2212.09068) -->
 
 
-<!-- <p align="center">
-<img src="https://make-a-protagonist.github.io/assets/teaser-video.gif" width="1080px"/>  
+<p align="center">
+<img src="./assets/teaser-video-small.gif" width="1080px"/>  
 <br>
 <em>The first framework for generic video editing with both visual and textual clues.</em>
-</p> -->
-
-![image](https://make-a-protagonist.github.io/assets/teaser-video.gif)
-<p align="center">
-<em>The first framework for generic video editing with both visual and textual clues.</em>
 </p>
+
 
 ## Abstract
 > The text-driven image and video diffusion models have achieved unprecedented success in generating realistic and diverse content. Recently, the editing and variation of existing images and videos in diffusion-based generative models have garnered significant attention. However, previous works are limited to editing content with text or providing coarse personalization using a single visual clue, rendering them unsuitable for indescribable content that requires fine-grained and detailed control. In this regard, we propose a generic video editing framework called Make-A-Protagonist, which utilizes textual and visual clues to edit videos with the goal of empowering individuals to become the protagonists. Specifically, we leverage multiple experts to parse source video, target visual and textual clues, and propose a visual-textual-based video generation model that employs mask-guided denoising sampling to generate the desired output. Extensive results demonstrate the versatile and remarkable editing capabilities of Make-A-Protagonist.
