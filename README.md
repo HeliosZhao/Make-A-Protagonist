@@ -11,9 +11,14 @@ This repository is the official implementation of [Make-A-Protagonist]().
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2212.09068-b31b1b.svg)](https://arxiv.org/abs/2212.09068) -->
 
 
-<p align="center">
+<!-- <p align="center">
 <img src="https://make-a-protagonist.github.io/assets/teaser-video.gif" width="1080px"/>  
 <br>
+<em>The first framework for generic video editing with both visual and textual clues.</em>
+</p> -->
+
+![image](https://make-a-protagonist.github.io/assets/teaser-video.gif)
+<p align="center">
 <em>The first framework for generic video editing with both visual and textual clues.</em>
 </p>
 
