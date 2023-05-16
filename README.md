@@ -1,14 +1,13 @@
 # Make-A-Protagonist
 
-This repository is the official implementation of [Make-A-Protagonist]().
+This repository is the official implementation of **Make-A-Protagonist**.
 
-**[Make-A-Protagonist: Generic Video Editing with An Ensemble of Experts]()**
+**[Make-A-Protagonist: Generic Video Editing with An Ensemble of Experts](https://arxiv.org/abs/2305.08850)**
 <br/>
 [Yuyang Zhao](https://yuyangzhao.com), [Enze Xie](https://xieenze.github.io/), [Lanqing Hong](https://scholar.google.com.sg/citations?user=2p7x6OUAAAAJ&hl=en), [Zhenguo Li](https://scholar.google.com.sg/citations?user=XboZC1AAAAAJ&hl=en), [Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/)
 <br/>
 
-[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://make-a-protagonist.github.io/) [![arXiv](https://img.shields.io/badge/arXiv-preprint-b31b1b.svg)]()
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2212.09068-b31b1b.svg)](https://arxiv.org/abs/2212.09068) -->
+[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://make-a-protagonist.github.io/) [![arXiv](https://img.shields.io/badge/arXiv-2305.08850-b31b1b.svg)](https://arxiv.org/abs/2305.08850)
 
 
 <p align="center">
@@ -182,11 +181,11 @@ If you make use of our work, please cite our paper.
 @article{zhao2023makeaprotagonist,
     title={Make-A-Protagonist: Generic Video Editing with An Ensemble of Experts},
     author={Zhao, Yuyang and Xie, Enze and Hong, Lanqing and Li, Zhenguo and Lee, Gim Hee},
-    journal={arXiv preprint},
+    journal={arXiv preprint arXiv:2305.08850},
     year={2023}
 }
 ```
 
 ## Acknowledgements
 
-- This code builds on [diffusers](https://github.com/huggingface/diffusers) and [Tune-A-Video](https://github.com/showlab/Tune-A-Video). Thanks for open-sourcing!
+This code is heavily derived from [diffusers](https://github.com/huggingface/diffusers) and [Tune-A-Video](https://github.com/showlab/Tune-A-Video). If you use this code in your research, please also acknowledge their work.
