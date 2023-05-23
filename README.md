@@ -50,7 +50,7 @@ The following weights from HuggingFace are used in this project. You can downloa
 - [DALL-E 2 Prior](https://huggingface.co/kakaobrain/karlo-v1-alpha)
 
 ControlNet for Stable Diffusion UnCLIP Small should be downloaded manually into `checkpoints`:
-- [ControlNet UnCLIP Small](https://huggingface.co/Make-A-Protagonist/Make-A-Protagonist/tree/main)
+- [ControlNet UnCLIP Small](https://huggingface.co/Make-A-Protagonist/controlnet-2-1-unclip-small)
 
 The code for training these models will be released soon.
 
