@@ -8,7 +8,7 @@ This repository is the official implementation of **Make-A-Protagonist**.
 <br/>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://make-a-protagonist.github.io/) [![arXiv](https://img.shields.io/badge/arXiv-2305.08850-b31b1b.svg)](https://arxiv.org/abs/2305.08850)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Make-A-Protagonist/Make-A-Protagonist-inference)
+[![Hugging Face Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/Make-A-Protagonist/Make-A-Protagonist-inference)
 
 <p align="center">
 <img src="./assets/teaser-video-small.gif" width="1080px"/>  
@@ -79,6 +79,7 @@ python experts/blip_inference.py -d data/<video_name>/images
 ```bash
 python experts/grounded_sam_inference.py -d data/<video_name>/images/0000.jpg -t <protagonist>
 ```
+Note: Since GroundingDINO detects bounding boxes for each noun in the sentence, it is better to use only one noun here. For example, use `-t man` instead of `-t "a man with a basketball"`.
 
 - Video object segmentation through the video
 ```bash
@@ -189,4 +190,7 @@ If you make use of our work, please cite our paper.
 
 ## Acknowledgements
 
-This code is heavily derived from [diffusers](https://github.com/huggingface/diffusers) and [Tune-A-Video](https://github.com/showlab/Tune-A-Video). If you use this code in your research, please also acknowledge their work.
+- This code is heavily derived from [diffusers](https://github.com/huggingface/diffusers) and [Tune-A-Video](https://github.com/showlab/Tune-A-Video). If you use this code in your research, please also acknowledge their work.
+- This project leverages [Stable Diffusion UnCLIP](https://github.com/Stability-AI/stablediffusion/blob/main/doc/UNCLIP.MD), [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2), [CLIP](https://github.com/openai/CLIP), [DALL-E 2 from Karlo](https://github.com/kakaobrain/karlo), [ControlNet](https://github.com/lllyasviel/ControlNet), [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO), [Segment Anything](https://github.com/facebookresearch/segment-anything) and [XMem](https://github.com/hkchengrex/XMem). We thank them for open-sourcing the code and pre-trained models.
+- We thank AK and Hugging Face for providing computational resources on the demo [![Hugging Face Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue)](https://huggingface.co/spaces/Make-A-Protagonist/Make-A-Protagonist-inference).
+
