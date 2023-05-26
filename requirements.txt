@@ -21,7 +21,7 @@ wandb
 ipdb
 matplotlib
 triton
-progressbar2=4.2.0
+progressbar2==4.2.0
 Pillow
 python-slugify
 addict
