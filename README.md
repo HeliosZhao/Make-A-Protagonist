@@ -8,7 +8,7 @@ This repository is the official implementation of **Make-A-Protagonist**.
 <br/>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://make-a-protagonist.github.io/) [![arXiv](https://img.shields.io/badge/arXiv-2305.08850-b31b1b.svg)](https://arxiv.org/abs/2305.08850)
-
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Make-A-Protagonist/Make-A-Protagonist-inference)
 
 <p align="center">
 <img src="./assets/teaser-video-small.gif" width="1080px"/>  
@@ -22,10 +22,11 @@ This repository is the official implementation of **Make-A-Protagonist**.
 
 ## News
 - [16/05/2023] Code released!
+- [26/05/2023] [Hugging Face Demo](https://huggingface.co/spaces/Make-A-Protagonist/Make-A-Protagonist-inference) released!
 
 ### Todo
 - [ ] Release training code for ControlNet UnCLIP Small
-- [ ] Release inference demo
+- [x] Release inference demo
 
 
 ## Setup
