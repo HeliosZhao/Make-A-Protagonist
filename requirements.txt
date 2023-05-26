@@ -22,3 +22,16 @@ ipdb
 matplotlib
 triton
 progressbar2=4.2.0
+Pillow
+python-slugify
+addict
+yapf
+onnxruntime
+pycocotools
+PyYAML
+requests
+setuptools
+supervision
+termcolor
+nltk
+fairscale
