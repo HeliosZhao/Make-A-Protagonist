@@ -13,7 +13,7 @@ tensorboard
 modelcards
 omegaconf
 einops
-imageio
+imageio==2.25.0
 ftfy
 opencv-python
 timm
@@ -35,3 +35,5 @@ supervision
 termcolor
 nltk
 fairscale
+# controlnet
+controlnet_aux
