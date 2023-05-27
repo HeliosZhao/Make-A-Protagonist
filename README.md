@@ -96,7 +96,7 @@ Currently we only support two types of control signals: depth and openposefull.
 
 **Reference Protagonist Segmentation**:
 ```bash
-python experts/grounded_sam_inference.py -d data/<video_name>/reference_images -t <protagonist> --masked_out
+python experts/grounded_sam_inference.py -d data/<video_name>/reference_images/<reference_image_name> -t <protagonist> --masked_out
 ```
 
 ### Training
