@@ -32,14 +32,14 @@ This repository is the official implementation of **Make-A-Protagonist**.
 ## Setup
 
 ### Requirements
-- Python 3.9 and Pytorch 1.13.1
+- Python>=3.9 and Pytorch>=1.13.1
 - xformers 0.0.17
 - Other packages in `requirements.txt`
 - Build GroundedSAM expert
 ```bash
 cd experts/GroundedSAM
-python -m pip install -e GroundingDINO
-python -m pip install -e segment_anything
+pip install -e GroundingDINO
+pip install -e segment_anything
 ```
 
 ### Weights
