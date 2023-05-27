@@ -436,8 +436,6 @@ def main(
                                 validation_pipeline, ddim_inv_scheduler, video_latent=latents,
                                 num_inv_steps=validation_data.num_inv_steps, prompt="", image_embed=key_frame_embed, noise_level=validation_data.noise_level, seed=seed)[-1].to(weight_dtype)
 
-                        set_noise = validation_data.pop("noise_level")
-                        v_noise = set_noise
 
                         if not validation_data.get("interpolate_embed_weight", False):
                             validation_data.interpolate_embed_weight = 1.0
@@ -466,7 +464,7 @@ def main(
                                 image_embed = torch.stack(image_embed, dim=0).to(device=latents.device, dtype=latents.dtype) # F, 768 for UnCLIP-small # F,C
                                 _ref_image = None
 
-                            sample = validation_pipeline(image=_ref_image, prompt=prompt, control_image=conditions, generator=generator, latents=ddim_inv_latent, image_embeds=image_embed, noise_level=v_noise, masks=masks, prior_latents=prior_embeds, prior_denoised_embeds=prior_denoised_embeds, **validation_data).videos
+                            sample = validation_pipeline(image=_ref_image, prompt=prompt, control_image=conditions, generator=generator, latents=ddim_inv_latent, image_embeds=image_embed, masks=masks, prior_latents=prior_embeds, prior_denoised_embeds=prior_denoised_embeds, **validation_data).videos
 
                             save_videos_grid(sample, f"{output_dir}/samples/sample-{global_step}-seed{seed}/{idx}-{prompt}.gif")
                             samples.append(sample)
