@@ -23,6 +23,7 @@ This repository is the official implementation of **Make-A-Protagonist**.
 ## News
 - [16/05/2023] Code released!
 - [26/05/2023] [Hugging Face Demo](https://huggingface.co/spaces/Make-A-Protagonist/Make-A-Protagonist-inference) released!
+- [01/06/2023] Upload more video demos with 32 frames in this repo and [Project Page](https://make-a-protagonist.github.io/)! Happy Children's Day!
 
 ### Todo
 - [ ] Release training code for ControlNet UnCLIP Small
