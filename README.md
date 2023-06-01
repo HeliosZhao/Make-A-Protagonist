@@ -173,6 +173,27 @@ python eval.py --config="configs/<video_name>/eval.yaml"
   <td width=25% style="text-align:center;">"A <span style="color: darkred">Suzuki Jimny</span> driving down a mountain road <span style="color: steelblue">in the rain</span>"</td>
 </tr>
 
+<tr>
+  <td><img src="https://make-a-protagonist.github.io/assets/data/girl-dance.gif"></td>
+  <td><img src="https://make-a-protagonist.github.io/assets/reference/girl-dance/beel.jpeg"></td>
+  <td><img src="https://make-a-protagonist.github.io/assets/results/girl-dance/girl-dance-beel.gif"></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;color:gray;">"A girl in white dress dancing on a bridge"</td>
+  <td width=25% style="text-align:center;"></td>
+  <td width=25% style="text-align:center;">"A <span style="color: darkred">girl</span> dancing <span style="color: steelblue">on the beach, anime style</span>"</td>
+</tr>
+
+<tr>
+  <td><img src="https://make-a-protagonist.github.io/assets/data/man-dance.gif"></td>
+  <td><img src="https://make-a-protagonist.github.io/assets/reference/man-dance/peng.png"></td>
+  <td><img src="https://make-a-protagonist.github.io/assets/results/man-dance/man-dance-peng.gif"></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;color:gray;">"A man dancing in a room"</td>
+  <td width=25% style="text-align:center;"></td>
+  <td width=25% style="text-align:center;">"A <span style="color: darkred">man</span>  <span style="color: steelblue">in dark blue suit with white shirt</span> dancing <span style="color: steelblue">on the beach</span>"</td>
+</tr>
 
 </table>
 
