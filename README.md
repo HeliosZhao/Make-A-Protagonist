@@ -24,9 +24,10 @@ This repository is the official implementation of **Make-A-Protagonist**.
 - [16/05/2023] Code released!
 - [26/05/2023] [Hugging Face Demo](https://huggingface.co/spaces/Make-A-Protagonist/Make-A-Protagonist-inference) released!
 - [01/06/2023] Upload more video demos with 32 frames in this repo and [Project Page](https://make-a-protagonist.github.io/)! Happy Children's Day!
+- [19/06/2023] ControlNet training code for Stable UnCLIP is released [**HERE**](https://github.com/HeliosZhao/ControlNet-Stable-UnCLIP)!
 
 ### Todo
-- [ ] Release training code for ControlNet UnCLIP Small
+- [x] Release training code for ControlNet UnCLIP Small
 - [x] Release inference demo
 
 
@@ -53,8 +54,7 @@ The following weights from HuggingFace are used in this project. You can downloa
 
 ControlNet for Stable Diffusion UnCLIP Small should be downloaded manually into `checkpoints`:
 - [ControlNet UnCLIP Small](https://huggingface.co/Make-A-Protagonist/controlnet-2-1-unclip-small)
-
-The code for training these models will be released soon.
+- You can also train your own ControlNet model with Stable UnCLIP [HERE](https://github.com/HeliosZhao/ControlNet-Stable-UnCLIP).
 
 Pre-trained model for other experts should be downloaded manually into `checkpoints`:
 - [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO) `wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha2/groundingdino_swinb_cogcoor.pth`
