@@ -131,19 +131,9 @@ python eval.py --config="configs/<video_name>/eval.yaml"
   <td style="text-align:center;"><b>Generated Video</b></td>
 </tr>
 <tr>
-  <!-- <td><img src="https://make-a-protagonist.github.io/assets/data/yanzi.gif"></td> -->
-  <td>
-    <video autoplay loop muted>
-      <source src="assets/data/yanzi.mp4" type="video/mp4">
-    </video>
-  </td>
+  <td><img src="https://make-a-protagonist.github.io/assets/data/yanzi.gif"></td>
   <td><img src="https://make-a-protagonist.github.io/assets/reference/yanzi/panda.jpeg"></td>
-  <!-- <td><img src="https://make-a-protagonist.github.io/assets/results/yanzi/panda.gif"></td> -->
-  <td>
-    <video autoplay loop muted>
-      <source src="assets/results/yanzi/panda.mp4" type="video/mp4">
-    </video>
-  </td>
+  <td><img src="https://make-a-protagonist.github.io/assets/results/yanzi/panda.gif"></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;color:gray;">"A man walking down the street"</td>
