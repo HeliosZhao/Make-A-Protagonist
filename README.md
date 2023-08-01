@@ -132,10 +132,18 @@ python eval.py --config="configs/<video_name>/eval.yaml"
 </tr>
 <tr>
   <!-- <td><img src="https://make-a-protagonist.github.io/assets/data/yanzi.gif"></td> -->
-  <td><video autoplay loop muted><source src="https://make-a-protagonist.github.io/assets/data/yanzi.mp4" type="video/mp4"></video></td>
+  <td>
+    <video autoplay loop muted>
+      <source src="https://make-a-protagonist.github.io/assets/data/yanzi.mp4" type="video/mp4">
+    </video>
+  </td>
   <td><img src="https://make-a-protagonist.github.io/assets/reference/yanzi/panda.jpeg"></td>
   <!-- <td><img src="https://make-a-protagonist.github.io/assets/results/yanzi/panda.gif"></td> -->
-  <td><video autoplay loop muted><source src="https://make-a-protagonist.github.io/assets/results/yanzi.mp4" type="video/mp4"></video></td>
+  <td>
+    <video autoplay loop muted>
+      <source src="https://make-a-protagonist.github.io/assets/results/yanzi/panda.mp4" type="video/mp4">
+    </video>
+  </td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;color:gray;">"A man walking down the street"</td>
